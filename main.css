@@ -12,6 +12,10 @@ p{
     font-family: 'Nunito', sans-serif;
 }
 
+label{
+    margin-top: 5px;
+}
+
 nav {
     
     color: #fff;
@@ -59,56 +63,6 @@ button {
     cursor: pointer;
 }
 
-.main-drop{
-    margin-left: 50px;
-}
-
-.drop {
-    color: white;
-    padding: 20px;
-    font-size: 1.2em;
-    cursor: pointer;
-  }
-
-  .dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 40px;
-    font-size: 1.2em;
-    padding: 35px 0;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    width: 250px;
-  }
-
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    /* margin-top: 10px; */
-    margin-left: 12px;
-  }
-
-  /* .dropdown:hover .dropdown-content {
-    display: block;
-  } */
-
-  .dropdown-content a:hover {
-    font-weight: 600;
-  }
-
-  .main-drop span:hover {
-    padding-bottom: 15px;
-    border-bottom-style: solid;
-    border-bottom-width: 2.1px;
-    
-}
 
 .btn1{
     font-size: 1.1em;
